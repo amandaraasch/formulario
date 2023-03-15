@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <style>
+        
+        body
+        {
+            margin:0px;
+            width: 100%;
+            height: 100vh;
+            background-image: linear-gradient(to bottom, rgb(42, 121, 118),silver);
+           
+            
+            
+        }
+        .BT1
+        {
+            background-color: green;
+            width:90px;
+            height: 60px;
+            font-size: 15px;
+            /*cursor: pointer;*/
+            cursor: url("abelha_cursor.png"),auto;
+        }
+        .BT2
+        {
+            background-color: red;
+            width: 90px;
+            height: 60px;
+            font-size: 15px;
+            
+        }
+
+    </style>
+</head>
+<body>
+
+    <fieldset>
+        <legend>dados do picolé</legend>
+        selecione um sabor:
+        <select>
+            <option>morango</option>
+            <option>chocolate</option>
+            <option>uva</option>
+            <option>creme</option>
+        </select>
+        <br>  <br>
+        escolha uma calda especial:
+        <input type="radio" name="calda"> chocolate
+        <input type="radio" name="calda"> morango
+        <br> <br>
+        escolha a casquinha:
+        <input type="checkbox"> &nbsp; cascão
+        <input type="checkbox">&nbsp; casca média
+        <input type="checkbox">&nbsp; casquinha
+        <br> <br>
+        Escolha a colher:
+        <input type="color">
+        <br> <br>
+        
+    </fieldset>
+    <fieldset>
+
+        <legend>Dados da entrega</legend>
+        Endereço:<input type="text">
+        <br> <br>
+        Cidade:<input type="text">
+        <br> <br>
+        Data da entrega: <input type="date">
+        <br> <br>
+        Comentário:<br>
+        <textarea> </textarea>
+        
+
+    </fieldset>
+    <button class="BT1"> ENVIAR </button>
+    <button class="BT2"> CANCELAR </button>
+    
+</body>
+</html>
